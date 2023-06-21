@@ -27,3 +27,8 @@ class B : private A{
 int main(){
 
 }
+//private cant be inheritate only public and protected can be inheritate
+//class B : private A so here if we make another class C which is inherit from class B ,class C cannot
+//be able to access the Class B because class A wil become private to class B
+//class B : protected A so here if we make another class C which is inherit from class B ,now only class C
+//will be able to accces to the class B 
