@@ -23,7 +23,3 @@ int main(){
      if(found) cout << "Key found" << endl;
      else cout << "Key not found" << endl;
 }
-
-
-
-// in a given array, write a function to find if even number exist in that array or not
