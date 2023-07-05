@@ -26,4 +26,5 @@ int main(){
         } cout << endl;
     }
     wavePrint(arr, 3, 4);
+    
 } 
