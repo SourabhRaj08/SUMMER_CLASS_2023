@@ -1,16 +1,16 @@
 #include<iostream>
 using namespace std;
-int ClimbStairs(int goal)
+int ClimbStairs(int n)
 {
-    if(goal==2)
+    if(n==2)
     {
         return 2;
     }
-    if(goal==1)
+    if(n==1)
     {
         return 1;
     }
-    return ClimbStairs(goal-1)+ ClimbStairs(goal-2);
+    return ClimbStairs(n-1)+ ClimbStairs(n-2);
 }
 int main()
 {
